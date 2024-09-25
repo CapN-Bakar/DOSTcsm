@@ -1,0 +1,44 @@
+.container{
+    padding: 20px;
+    background: #fff;
+    height: 220px;
+    width: 800px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+}
+.typ {
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+
+  }
+.tybuttons{
+    display: flex;
+}
+.prnt{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(12, 69, 178, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 58vh;
+}
+.out{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(12, 69, 178, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 10px;
+ 
+}

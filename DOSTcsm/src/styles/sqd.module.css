@@ -1,0 +1,65 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option {
+    margin: 0 10px;
+    text-align: center;
+}
+.option input[type="checkbox"] {
+    display: block;
+    margin: 10px auto;
+}
+.option img {
+    width: 75px;
+    height: 75px;
+}
+.navigation {
+    margin-top: 50px;
+}
+.navigation button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 10px;
+}
+.buttons{
+  position: relative;
+  left: 270px;
+  background-color: #4567b7; /* blueish color */
+  color: #ffffff; /* white text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 30px;
+  
+}
+#box {
+  width: 60rem;
+  height: 30rem;
+  margin: auto;
+  padding: 2rem;
+  background: #FFF;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
+  text-align: center;
+  
+}
+  
+  .buttons:hover {
+    background-color: #3498db; /* darker blueish color on hover */
+  }
+  

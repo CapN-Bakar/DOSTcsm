@@ -1,0 +1,57 @@
+
+label{
+  font-size: 2vh;
+}
+header h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 0.6rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#box {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 8px;
+  background:#FFF;
+  box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
+  text-align: center;
+}
+
+.buttons{
+  position: relative;
+  left: 270px;
+  background-color: #4567b7; /* blueish color */
+  color: #ffffff; /* white text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+.question {
+  font-family: Arial, sans-serif;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+}
+.buttons:hover {
+  background-color: #3498db; /* darker blueish color on hover */
+}

@@ -1,0 +1,39 @@
+.container{
+    padding: 20px;
+    background: #fff;
+    height: 250px;
+    width: 700px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+}
+#myTextBox {
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  #myTextBox:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.nxt {
+    width: 80px;
+    height: 40px;
+    background-color: rgba(12, 69, 178, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 58vh;
+}
+

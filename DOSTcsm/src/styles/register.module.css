@@ -1,0 +1,120 @@
+.registrationForm {
+  width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 40px; */
+}
+.leftColumn {
+  flex-basis: 40%;
+}
+.rightColumn{
+  flex-basis: 40%;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.inputs {
+  width: 350px;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.radioButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 3px;
+}
+
+.registerbtn[type="submit"] {
+  width: 756px;
+  height: 40px;
+  background-color: rgba(12, 69, 178, 255);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.registerh1 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.showpass {
+  display: flex;
+  justify-content: left;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+.citySuggestions {
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #070707;
+  border-radius: 5px;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  z-index: 1;
+}
+
+.citySuggestions li {
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+
+.citySuggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.citySuggestions li:last-child {
+  border-bottom: none;
+}
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+}
+.provincemunicipalitieslist {
+  font-size: 20px;
+  width: 375px;
+  height: 43px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 11px ;
+}
